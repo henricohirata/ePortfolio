@@ -413,7 +413,7 @@ iframe {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; /* Ensure wrapping on smaller screens */
-    gap: 20px; /* Adds space between images */
+    /*gap: 20px; /* Adds space between images */
 }
 
 .about-me-image {
@@ -424,8 +424,7 @@ iframe {
 .about-me-image img {
     width: 100%; /* Make images responsive */
     height: auto;
-    border-radius: 8px; /* Optional: add rounded corners */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    border-radius: 0px; /* Optional: add rounded corners */
 }
 
 .about-me-image p {
