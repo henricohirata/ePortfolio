@@ -205,11 +205,11 @@ a:hover {
 }
 
 .project-image {
-    width: 100%;               /* Make image take full width of the card */
+    width: 80%;               /* Make image take full width of the card */
     height: auto;              /* Maintain aspect ratio */
-    max-height: 400px;         /* Limit height for consistency across images */
+    max-height: 200px;         /* Limit height for consistency across images */
     object-fit: cover;         /* Crop images to fit container without stretching */
-    border-radius: 8px 8px 0 0; /* Rounded corners at the top */
+    border-radius: 8px 8px 8px 8px; /* Rounded corners at the top */
     margin-bottom: 15px;       /* Space between the image and the title/description */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for a polished look */
 }
