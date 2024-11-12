@@ -217,19 +217,25 @@ a:hover {
 .project-description {
     font-size: 1em;
     color: #555;
-    margin: 10px 0 20px;
+    margin: 10px 0;
     padding: 0 10px;
 }
 
-/* Styling for small images inside the project description */
+/* Container for small images to align them in a row */
+.project-small-images {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin: 15px 0 20px; /* Space between description and images, and images and button */
+}
+
+/* Styling for each small image */
 .project-small-image {
-    width: 30%;              /* Adjust width to fit three images on one line */
-    height: auto;            /* Maintain aspect ratio */
-    margin: 5px;             /* Adds spacing between images */
-    border-radius: 4px;      /* Rounded corners for consistency */
+    width: 32%;             /* Width to fit three images side-by-side */
+    height: auto;           /* Maintain aspect ratio */
+    border-radius: 4px;     /* Rounded corners */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    display: inline-block;   /* Align images horizontally */
-    object-fit: cover;       /* Crop images to fit within the container */
+    object-fit: cover;      /* Crop images to fit within container */
 }
 
 /* Styling the iframe to fit within the container */
