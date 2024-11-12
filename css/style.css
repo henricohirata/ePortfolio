@@ -227,7 +227,7 @@ iframe {
 .download-button:hover {
     background-color: #0066cc;
     color: #ffffff;
-    border-color: #00509e;
+    border-color: #9e3200;
     box-shadow: 0 6px 12px rgba(0, 102, 204, 0.3);
 }
 
