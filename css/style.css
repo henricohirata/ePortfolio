@@ -135,7 +135,7 @@ footer p {
 
 /* Different colors for each social button */
 .linkedin:hover { color: #0077b5; }  /* LinkedIn blue */
-.github:hover { color: #333; }       /* GitHub dark grey */
+.github:hover { color: #fff; }       /* GitHub white */
 .instagram:hover { color: #e1306c; } /* Instagram pink */
 
 /* Links */
