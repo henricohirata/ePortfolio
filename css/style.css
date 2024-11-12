@@ -357,7 +357,7 @@ iframe {
 .experience-entry {
     margin-bottom: 20px; /* Space between each entry */
     padding-bottom: 15px; /* Padding to create space between entries */
-    border-bottom: 1px solid #ddd; /* Light separator line */
+    border-bottom: 1px solid #ddd; /* Same separator line as in the education section */
 }
 
 .job-title {
