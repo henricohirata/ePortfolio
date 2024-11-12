@@ -185,51 +185,12 @@ iframe {
     border: none;
 }
 
-/* Download Button */
-.download-button {
-    display: inline-block;
-    padding: 12px 24px;
-    font-size: 1rem;
-    font-weight: bold;
-    color: #333;
-    background-color: #ffffff;
-    border: 2px solid #0066cc;
-    border-radius: 6px;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 102, 204, 0.2);
-}
-
-.download-button:hover {
-    background-color: #0066cc;
-    color: #ffffff;
-    border-color: #00509e;
-    box-shadow: 0 6px 12px rgba(0, 102, 204, 0.3);
-}
-
-.download-button:active {
-    box-shadow: 0 3px 6px rgba(0, 102, 204, 0.3);
-    transform: translateY(2px);
-}
-
-
-.download-button:hover {
-    background-color: #0066cc;
-    color: #ffffff;
-    border-color: #00509e;
-    box-shadow: 0 6px 12px rgba(0, 102, 204, 0.3);
-}
-
-.download-button:active {
-    box-shadow: 0 3px 6px rgba(0, 102, 204, 0.3);
-    transform: translateY(2px);
-}
-
 /* PDF Container */
 .pdf-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; /* Centers the content horizontally */
     height: 100vh;
     padding: 20px;
     background-color: #f4f4f9;
@@ -244,6 +205,35 @@ iframe {
     max-height: 1200px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    margin-bottom: 20px; /* Adds space between the iframe and button */
+}
+
+/* Download Button */
+.download-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    background-color: #ffffff;
+    border: 2px solid #0066cc;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 102, 204, 0.2);
+    text-align: center;
+}
+
+.download-button:hover {
+    background-color: #0066cc;
+    color: #ffffff;
+    border-color: #00509e;
+    box-shadow: 0 6px 12px rgba(0, 102, 204, 0.3);
+}
+
+.download-button:active {
+    box-shadow: 0 3px 6px rgba(0, 102, 204, 0.3);
+    transform: translateY(2px);
 }
 
 /* Responsive Design */
