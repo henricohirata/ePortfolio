@@ -337,6 +337,53 @@ iframe {
     margin-top: 5px;
 }
 
+.experience-section {
+    width: 90%;
+    max-width: 900px; /* Limit max width for readability */
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.experience-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.experience-entry {
+    margin-bottom: 20px; /* Space between each entry */
+    padding-bottom: 15px; /* Padding to create space between entries */
+    border-bottom: 1px solid #ddd; /* Light separator line */
+}
+
+.job-title {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #0066cc; /* Accent color for the job title */
+}
+
+.company {
+    font-size: 1.1em;
+    color: #555; /* Slightly muted color for the company name */
+    margin-top: 5px;
+}
+
+.duration {
+    font-size: 1em;
+    color: #777; /* Lighter color for the duration */
+    margin-top: 5px;
+}
+
+.description {
+    font-size: 1em;
+    color: #444; /* Main text color for the description */
+    margin-top: 10px; /* Space between job description and duration */
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     header nav ul li {
