@@ -185,18 +185,31 @@ iframe {
     border: none;
 }
 
-/* Download link styling */
-.download-link {
-    margin-top: 20px;
-    text-decoration: none;
-    color: #0077b5;
+/* Download Button */
+.download-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1rem;
     font-weight: bold;
-    font-size: 1.1rem;
-    transition: color 0.3s ease;
+    color: #333;
+    background-color: #ffffff;
+    border: 2px solid #0066cc;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 102, 204, 0.2);
 }
 
-.download-link:hover {
-    color: #005580;
+.download-button:hover {
+    background-color: #0066cc;
+    color: #ffffff;
+    border-color: #00509e;
+    box-shadow: 0 6px 12px rgba(0, 102, 204, 0.3);
+}
+
+.download-button:active {
+    box-shadow: 0 3px 6px rgba(0, 102, 204, 0.3);
+    transform: translateY(2px);
 }
 
 /* PDF Container */
