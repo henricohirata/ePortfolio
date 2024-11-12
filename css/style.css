@@ -212,6 +212,19 @@ iframe {
     transform: translateY(2px);
 }
 
+
+.download-button:hover {
+    background-color: #0066cc;
+    color: #ffffff;
+    border-color: #00509e;
+    box-shadow: 0 6px 12px rgba(0, 102, 204, 0.3);
+}
+
+.download-button:active {
+    box-shadow: 0 3px 6px rgba(0, 102, 204, 0.3);
+    transform: translateY(2px);
+}
+
 /* PDF Container */
 .pdf-container {
     display: flex;
