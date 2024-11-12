@@ -10,6 +10,9 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body stretches to full height */
 }
 
 /* Container */
@@ -60,6 +63,7 @@ header nav ul li a:hover {
 /* Main Content */
 main {
     padding-top: 120px; /* Offset for the fixed header */
+    flex-grow: 1;
 }
 
 #hero {
