@@ -390,6 +390,63 @@ iframe {
     margin-top: 10px; /* Space between job description and duration */
 }
 
+/* Main container for the About Me section */
+.about-me-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-me-container h2 {
+    font-size: 2.5em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Flexbox layout for images */
+.about-me-images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Ensure wrapping on smaller screens */
+    gap: 20px; /* Adds space between images */
+}
+
+.about-me-image {
+    width: 23%; /* Makes each image take up 23% of the container width */
+    text-align: center;
+}
+
+.about-me-image img {
+    width: 100%; /* Make images responsive */
+    height: auto;
+    border-radius: 8px; /* Optional: add rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+.about-me-image p {
+    font-size: 1em;
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Responsiveness for smaller screens */
+@media (max-width: 768px) {
+    .about-me-image {
+        width: 48%; /* 2 images per row on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .about-me-image {
+        width: 100%; /* 1 image per row on very small screens */
+    }
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     header nav ul li {
