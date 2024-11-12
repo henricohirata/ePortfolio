@@ -199,6 +199,27 @@ iframe {
     color: #005580;
 }
 
+/* PDF Container */
+.pdf-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+/* PDF Viewer iframe */
+.pdf-viewer {
+    width: 100%;
+    height: 100%;
+    border: none;
+    max-width: 900px;
+    max-height: 1200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     header nav ul li {
