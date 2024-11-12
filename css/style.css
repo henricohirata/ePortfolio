@@ -204,6 +204,16 @@ a:hover {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
+.project-image {
+    width: 100%;               /* Make image take full width of the card */
+    height: auto;              /* Maintain aspect ratio */
+    max-height: 400px;         /* Limit height for consistency across images */
+    object-fit: cover;         /* Crop images to fit container without stretching */
+    border-radius: 8px 8px 0 0; /* Rounded corners at the top */
+    margin-bottom: 15px;       /* Space between the image and the title/description */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for a polished look */
+}
+
 /* Styling the iframe to fit within the container */
 iframe {
     width: 100%;
