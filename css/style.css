@@ -164,10 +164,6 @@ a:hover {
     margin-right: 20px;
 }
 
-.intro-text {
-    font-size: 18px;
-}
-
 .contact {
     text-align: center;
 }
@@ -184,7 +180,7 @@ a:hover {
 /* Styles for the text section */
 .intro-text {
     flex: 1;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     line-height: 1.5;
 }
 
