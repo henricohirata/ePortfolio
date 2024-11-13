@@ -408,6 +408,10 @@ iframe {
     margin-bottom: 40px;
 }
 
+.trajectory {
+    width: 70%;
+}
+
 /* Flexbox layout for images */
 .about-me-images {
     display: flex;
