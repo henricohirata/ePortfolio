@@ -225,6 +225,11 @@ a:hover {
     color: #555;
     margin: 10px 0;
     padding: 0 10px;
+    text-align: justify;
+}
+
+.project-skills {
+    text-align: center;
 }
 
 /* Container for small images to align them in a row */
