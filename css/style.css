@@ -410,6 +410,9 @@ iframe {
 
 .trajectory {
     width: 70%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Flexbox layout for images */
