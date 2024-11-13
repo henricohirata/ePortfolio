@@ -413,6 +413,7 @@ iframe {
     text-align: justify;
     margin-left: auto;
     margin-right: auto;
+    font-size: 1.2rem;
 }
 
 /* Flexbox layout for images */
