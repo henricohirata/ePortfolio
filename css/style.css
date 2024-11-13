@@ -297,13 +297,13 @@ iframe {
     transition: all 0.3s ease;
     box-shadow: 0 4px 8px rgba(0, 102, 204, 0.2);
     text-align: center;
-    width: 100px;
+    width: 300px;
 }
 
 .download-button:hover {
     background-color: #0066cc;
     color: #ffffff;
-    border-color: #9e3200;
+    border-color: #0d0058;
     box-shadow: 0 6px 12px rgba(0, 102, 204, 0.3);
 }
 
