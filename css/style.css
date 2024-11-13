@@ -416,6 +416,10 @@ iframe {
     font-size: 1.2rem;
 }
 
+.traj-p {
+    padding: 5px;
+}
+
 /* Flexbox layout for images */
 .about-me-images {
     display: flex;
