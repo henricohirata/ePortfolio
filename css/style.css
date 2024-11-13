@@ -285,7 +285,7 @@ iframe {
 
 /* Download Button */
 .download-button {
-    display: inline-block;
+    display: flex;
     padding: 12px 24px;
     font-size: 1rem;
     font-weight: bold;
@@ -478,13 +478,10 @@ iframe {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
 }
 
-
-
-.main-resume a {
+.download-button {
     margin-left: auto;
     margin-right: auto;
 }
-
 
 /* Responsiveness for smaller screens */
 @media (max-width: 768px) {
