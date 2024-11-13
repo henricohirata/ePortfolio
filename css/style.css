@@ -66,6 +66,7 @@ header nav ul li a:hover {
 main {
     padding-top: 120px; /* Offset for the fixed header */
     flex-grow: 1;
+    height:100vh;
 }
 
 #hero {
@@ -98,7 +99,7 @@ section p {
 /* Footer styles */
 footer {
     background-color: #333;
-    color: #333;
+    color: #fff;
     text-align: center;
     padding: 20px 0;
     bottom: 0;
